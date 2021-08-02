@@ -168,7 +168,7 @@ class Assembler:
 
 
 if __name__ == "__main__":
-    DEBUG = False
+    #DEBUG = False
     assembler = Assembler()
     print("Translating")
     assembler.assemble_file("input.asm", "output.bin")
